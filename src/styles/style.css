@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('img/background/background.jpg');
+    background-image: url('../assets/img/background/background.jpg');
     padding: 70px;
     background-color: var(--dark-1);
     display: flex;
@@ -28,6 +28,11 @@ body {
 .logo {
     width: 200px;
     margin-bottom: 85px;
+}
+
+.logo:hover {
+    margin-top: -3px;
+    transition: ease-in;
 }
 
 .box-login {
