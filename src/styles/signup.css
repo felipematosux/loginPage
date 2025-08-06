@@ -108,6 +108,10 @@ input, select {
     margin-bottom: 20px;
 }
 
+select.country,
+select.country option {
+  color: var(--light);
+}
 
 .areac,
 .phone {
@@ -118,4 +122,69 @@ input, select {
 .email {
     width: 100%;
     margin-bottom: 20px;
+}
+
+
+@media (max-width:600px){
+    * {
+        padding: 3vh;
+        padding-top: 0;
+    }
+
+    main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    input, select {
+    padding: 10px;
+    background-color: transparent;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ge_info {
+    background-color: var(--light);
+    color: var(--dark-1);
+    padding: 2vh;
+    border-radius: 30px;
+    height: auto;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.ctc_details {
+    background-color: var(--secondary);
+    color: var(--light);
+    padding: 2vh;
+    border-radius:30px;
+    height: auto;
+}
+
+.title, .name, .lname, .company, .bussiness {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.employees {
+    width: 100%;
+}
+
+.company {
+    margin-top: 0;
+}
+.logo {
+    width: 200px;
+    margin-bottom: 0;
+}
+
+.container_logo a {
+    padding: 0;
+}
 }
