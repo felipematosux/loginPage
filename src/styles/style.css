@@ -151,3 +151,85 @@ label {
 .logingoogle:hover, .signin-button:hover {
     cursor: pointer;
 }
+
+@media (max-width:790px) {
+    * {
+        padding: 3vh;
+        padding-top: 0;
+    }
+
+    .logo {
+    width: 200px;
+    margin-bottom: 0;
+}
+
+.box-login {
+    width: 350px;
+    padding: 2vh;
+}
+
+.content h4 {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 40px;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+form {
+    padding: 0;
+}
+
+.password-input {
+    margin-top: 0;
+    width: 100%;
+}
+
+.email-input {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.rmb-fgt {
+    flex-direction: column;
+    padding: 0;
+}
+
+.rmbr label {
+    padding: 0;
+}
+
+.forgotpass {
+    margin: 0;
+    padding: 0;
+}
+
+.signup {
+    padding: 0;
+    margin: 0;
+}
+
+.signup p {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.signin-button {
+    margin-top: 0;
+}
+
+.signup a {
+    padding: 0;
+}
+
+.logingoogle {    
+    background-position: 40px 15px;
+}
+}

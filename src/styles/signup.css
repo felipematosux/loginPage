@@ -125,7 +125,7 @@ select.country option {
 }
 
 
-@media (max-width:600px){
+@media (max-width:790px){
     * {
         padding: 3vh;
         padding-top: 0;
@@ -165,6 +165,7 @@ h2 {
     padding: 2vh;
     border-radius:30px;
     height: auto;
+    width: 350px;
 }
 
 .title, .name, .lname, .company, .bussiness {
@@ -187,4 +188,9 @@ h2 {
 .container_logo a {
     padding: 0;
 }
+
+.street, .adc, .zipcode, .country, .areac, .phone, .email {
+    width: 100%;
+}
+
 }
